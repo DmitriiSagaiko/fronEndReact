@@ -1,0 +1,9 @@
+.imgWrapper {
+  height: 380px;
+  width: 280px;
+}
+
+.imgWrapper > img {
+  width: 100%;
+  height: 100%;
+}

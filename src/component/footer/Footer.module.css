@@ -1,0 +1,21 @@
+.footer {
+  background-color: orange;
+  color: wheat;
+  width: 100%;
+  min-height: 50px;
+}
+
+a {
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:global.active {
+  text-decoration: underline;
+}

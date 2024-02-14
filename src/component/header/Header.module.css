@@ -1,0 +1,21 @@
+.navbar {
+    position: sticky;
+    top: 0px;
+    background-color: orange;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar >a,span {
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.navbar > a:hover {
+    text-decoration: underline;
+}
+
+.navbar > a:global.active {
+    text-decoration: underline;
+}
